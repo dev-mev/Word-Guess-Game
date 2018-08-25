@@ -1,0 +1,43 @@
+h5, p{
+  padding-left: 100px;
+  font-size: 120%;
+}
+
+h5{
+  padding-top: 40px;
+}
+
+.textStyle{
+  font-weight: bold;
+}
+
+.card-body{
+  background-color: palevioletred;
+}
+
+.card-title{
+  font-weight: bold;
+  font-size: 140%;
+}
+
+.card-header{
+  font-family: fantasy;
+
+}
+
+.zombiePic{
+  float: right;
+  padding-right: 200px;
+  
+}
+
+#writeWord{
+  font-size: 140%;
+}
+
+#endScreen{
+  display: none;
+  background-color: limegreen;
+  text-align: center;
+  padding-bottom: 30px;
+}

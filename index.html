@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hangman</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css";>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <section>
+        <div class="card">
+            <h1 class="card-header">Zombie Hangman</h1>
+            <div class="card-body">
+              <h5 class="card-title">Press any key to get started!</h5>
+              <img class = "zombiePic" src = "assets/images/zombie-clipart-a_cute_green_zombie_costume_0515-1010-0904-2217_SMU.jpg">
+                <p class="card-text">      
+                <p id="letterCorrect"></p>
+                <p id="letterGuessed"></p>
+                <p class="textStyle">Wins: 
+                  <p id="incrementWins"></p>
+                </p>
+                <p class="textStyle">Current word:</p>
+                  <p id="writeWord"></p>
+                  <h1 id="youWin"></h1>
+                <p class="textStyle">Number of guesses remaining:</p>
+                  <p id="remaining"></p>
+                  <h1 id="lose"></h1>
+                <p class="textStyle">Letters already guessed:</p>
+                <p id="guesses"></p>
+              </p>
+            </div>
+          </div>
+    </section>
+
+    <div id="endScreen">
+      <div id="endScreenContent">
+        <h1 id = "txtEndMessage"></h1>
+        <button id="btnReplay" onclick="beginGame()"type="button" class="btn btn-dark">Play Again</button>
+      </div>
+    </div>
+
+      
+    <!-- JavaScript -->
+    <script src="assets/javascript/game.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  </body>
+</html>
